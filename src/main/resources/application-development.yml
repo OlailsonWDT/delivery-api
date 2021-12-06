@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    password: tiago2022
+    url: jdbc:postgresql://localhost:5432/delivery
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
